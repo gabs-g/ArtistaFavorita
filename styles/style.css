@@ -1,0 +1,76 @@
+html{
+    --title: #0B8494;
+    --subtitle: #125B9A;
+    --border: #F05A7E;
+    --details: #FFBE98;
+    
+    color: #F05A7E;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1{
+    color: var(--details);
+    font-family:cursive;
+    font-size:xxx-large;
+    color: var(--title);
+}
+h2{
+    color: var(--details);
+    font-family:cursive;
+    font-size: xx-large
+}
+
+img{
+    border: 30px solid var(--border);
+    width: 400px;
+}
+a{
+    color: var(--border);
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 30px;
+
+}
+
+form {
+    display: block;
+    margin: 0 auto; 
+    width: 300px; 
+    color: var(--subtitle);
+}
+
+label, input {
+    display: block; 
+    width: 100%;  
+    margin-bottom: 20px;  
+    border-color: var(--border);
+    text-align: center;  
+}
+
+input {
+    padding: 10px;  /* Da espacio interno a los campos de entrada */
+}
+
+
+p{
+  color: var(--subtitle);
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    color: var(--subtitle);
+    background-color: var(--details)
+}
+
+ol{
+    display: inline-block;
+    text-align: center;
+    font-size: x-large;
+    color: var(--title);
+}
+
+#comentarios{
+    height: 80px;
+}
